@@ -1,0 +1,92 @@
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+/*头部用到的字体图标*/
+.icon-home2:before {
+  content: "\e901";
+}
+.icon-folder-download:before {
+  content: "\e933";
+}
+.icon-location:before {
+  content: "\e947";
+}
+.icon-mobile:before {
+  content: "\e958";
+}
+.icon-user:before {
+  content: "\e971";
+}
+.icon-mail4:before {
+  content: "\ea86";
+}
+/*头部*/
+.header {
+  height: 240px;
+  background: url('../images/header-bg_03.jpg') repeat-x;
+  background-size: 20px 240px;
+}
+.header .container .icon {
+  color: #fff;
+}
+.header .container a {
+  color: #fff;
+}
+.header .container .header-name {
+  padding-top: 50px;
+  color: #fff;
+  float: left;
+}
+.header .container .header-name h1 {
+  font-size: 50px;
+}
+.header .container .header-name p {
+  margin-top: 30px;
+}
+.header .container .header-info {
+  width: 600px;
+  float: right;
+  margin-right: 100px;
+}
+.header .container .header-info ul {
+  padding-top: 50px;
+  width: 650px;
+}
+.header .container .header-info ul li {
+  float: left;
+  width: 150px;
+  padding: 20px 30px;
+}
+.resume-first {
+  margin-top: 50px;
+}
+.resume .resume-left {
+  float: left;
+}
+.resume .resume-right {
+  margin-left: 100px;
+  padding: 20px 30px;
+  float: left;
+  border-left: 2px #39C0B2 dashed;
+  line-height: 25px;
+  position: relative;
+}
+.resume .resume-right li {
+  width: 600px;
+  margin: 10px 0;
+}
+.resume .resume-right li p {
+  text-indent: 2em;
+}
+.resume .resume-right:after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: -22px;
+  top: -10px;
+  width: 42px;
+  height: 42px;
+  background: url("../images/icon.png");
+  background-size: 42px 42px;
+}
